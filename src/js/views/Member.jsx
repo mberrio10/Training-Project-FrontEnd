@@ -1,5 +1,4 @@
 import React from 'react';
-import { Consumer } from "../stores/AppContext.jsx";
 import { Link } from "react-router-dom";
 import Navbar from "../component/Navbar.jsx";
 import MemberInfo from "../component/MemberInfo.jsx";

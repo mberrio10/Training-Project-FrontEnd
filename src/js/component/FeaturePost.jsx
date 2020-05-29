@@ -12,8 +12,9 @@ class FeaturePost extends React.Component {
                     <p className="blog-post-meta font-italic">
                         September 22, 2018 by En Equilibrium
                     </p>
-                    <h2 className="font-italic">Tiltle Blog Post</h2>
-                    <p className="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
+                    <h2 className="font-italic">Preparing for Heavy Lifting</h2>
+                    <p className="lead my-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec volutpat ut nunc at ultricies. 
+                        Cras massa lacus, maximus id ligula sed, porttitor ultrices magna.</p>
                     <p className="lead mb-0"><a href="#" className="font-weight-bold">Continue reading...</a> </p>
                 </div>
                 <p>&nbsp;</p>

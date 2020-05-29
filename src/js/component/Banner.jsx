@@ -4,17 +4,17 @@ import bgBanner from "../../img/bg-banner.jpg";
 class Banner extends React.Component {
 	render() {
 		return (
-            <div className="jumbotron text-white">
+            <div className="jumbotron banner text-white">
                 <div className="container-fluid">
-                    <div className="row mb-2 justify-content-start">
+                    <div className="row mb-2 justify-content-around">
                         <img className="bgBanner" src={bgBanner} />
                         <div className="col-lg-7 px-0">
                             <h1 className="display-4 text-left nameTitle">
-                                Hey! I`m Mike B. <br />
-                                <span>Full Stack Web Developer</span>
+                                Put Your Body And Mind <br />
+                                <span>En Equilibrium</span>
                             </h1>
                             <p className="lead my-3 text-left font-italic descTitle">
-                                Here to make your bussines Groovy!
+                                Personal Training, Yoga and Nutrition!
                             </p>
                         </div>
                     </div>

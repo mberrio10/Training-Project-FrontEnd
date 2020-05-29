@@ -18,13 +18,15 @@
 // @import './lux.css';
 //@import './cyborg.css';
 
-.jumbotron {
-    min-height: 100vh;
+.jumbotron.banner {
+    min-height: 91vh;
     display: flex;
     background-size: cover;
-    background-color: white;
+    background-color: #212529;
     align-items: center;
     margin-bottom: 0;
+    padding: 0;
+    padding-bottom: 60px;
 }
 
 img.bgBanner {
@@ -34,21 +36,142 @@ img.bgBanner {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    opacity: 0.3;
 }
 
 .jumbotron h1 {
     font-weight:700;
-    color: #fff;
+    color: #27b21b;
     line-height: 1em;
-    font-size: 3rem;
+    font-size: 71px;
 }
 
 .jumbotron h1 span {
-    color:#8c9a3d;
+    color:#b640a6;
 }
 
 div.col-lg-7 {
     z-index: 2;
+}
+
+.jumboImage {
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+img.bgPostImg {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.secAbout  {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+h1.servsTitle {
+    font-weight:700;
+    line-height: 1rem;
+    font-size: 48px;
+    color: white;
+    margin: 50px;
+}
+
+.trainingServs h1 span {
+    color: #27b21b;
+}
+
+.container-fluid.trainingServs {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/en-equilibrium-photos.appspot.com/o/jonathan-borba-R0y_bEUjiOM-unsplash.jpg?alt=media&token=b96b2949-fe0e-4cf1-93cf-92fc7cd5c026);
+    background-size: cover;
+    padding-bottom: 60px;
+    min-height: 60vh;
+    background-position: 50% 50%;
+}
+
+.container.trainingServsCard {
+    margin-top: -219px;
+    padding-bottom: 60px;
+}
+
+.card-deck {
+    /* position: relative; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(227px, 1fr));
+    grid-gap: 30px;
+    max-width: 100%;
+    margin-top: 40px;
+}
+
+.card {
+    align-items: center;
+}
+
+.card-deck .card {
+    // width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.05);
+    border: none;
+    margin-top: 20px;
+}
+
+.card-deck .card .card-img-top {
+    margin-top: 25px;
+}
+
+.card-deck .card img {
+    max-width: 70px;
+    margin-bottom: 15px;
+}
+
+.card-deck .card .card-body h5{ 
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.container-fluid.blogHome {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/en-equilibrium-photos.appspot.com/o/fitness-3167418_1280.jpg?alt=media&token=c139ab98-8f44-46d9-9259-6e0d91f2424b);
+    background-size: cover;
+    margin-top: 60px;
+    padding: 60px;
+    min-height: 75vh;
+    background-position: 50% 50%;
+}
+
+h1.blogTitle {
+    font-weight:700;
+    line-height: 1rem;
+    font-size: 48px;
+    color: white;
+    margin: 50px;
+}
+
+.blogHome h1 span {
+    color: #27b21b;
+}
+
+.bgWorkoutImg {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/en-equilibrium-photos.appspot.com/o/john-fornander-wl8EzLeEya4-unsplash.jpg?alt=media&token=0d09c3dc-d3aa-46f9-8ac9-54998c2a9f67);
+    background-size: cover;
+}
+
+.bgYogaImg {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/en-equilibrium-photos.appspot.com/o/jared-rice-NTyBbu66_SI-unsplash.jpg?alt=media&token=2c741c21-e698-49f4-a321-8f9a1beaad49);
+    background-size: cover;
+}
+
+.bgNutritionImg {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/en-equilibrium-photos.appspot.com/o/joseph-gonzalez-fdlZBWIP0aM-unsplash.jpg?alt=media&token=3c183790-b2c3-45e4-9d87-2771847e49a3);
+    background-size: cover;
 }
 
 .videoWrapper {

@@ -17,8 +17,12 @@ class Post extends React.Component{
         return (
             <React.Fragment>
                 <Navbar />
-                <p>&nbsp;</p>
                 <div className="container">
+                    <div className="jumbotron jumboImage">
+                        <div className="col-md-12 px-0">
+                            <img className="bgPostImg" src="https://firebasestorage.googleapis.com/v0/b/en-equilibrium-photos.appspot.com/o/scott-webb-Vn39uEkX00s-unsplash.jpg?alt=media&token=676a5504-d8c1-4271-9e31-ba79a82704ef" />
+                        </div>
+                    </div>
                     <div className="container p-0">
                         <div className="row">
                             <div className="col-md-8 blog-main-disable">

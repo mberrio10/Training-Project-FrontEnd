@@ -1,8 +1,11 @@
 import React from 'react';
-import { Consumer } from "../stores/AppContext.jsx";
+// import { Consumer } from "../stores/AppContext.jsx";
 import Navbar from "../component/Navbar.jsx";
 import Banner from "../component/Banner";
-import Featurette from "../component/Featurette.jsx";
+import TrainerAbout from "../component/TrainerAbout.jsx";
+import TrainingServices from "../component/TrainingServices";
+import ServicesCard from "../component/TrainingServicesCard";
+import BlogHome from "../component/BlogHome";
 
 class Home extends React.Component{
     
@@ -18,7 +21,11 @@ class Home extends React.Component{
             <React.Fragment>
                 <Navbar />
                 <Banner/>
-                <Featurette/>
+                <TrainerAbout/>
+                <TrainingServices/>
+                <ServicesCard/>
+                <BlogHome/>
+                <p>&nbsp;</p>
                 {/* <Consumer>
                     {({ state }) => (
                         state.blogs.map((item, index) => {
