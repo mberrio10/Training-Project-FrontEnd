@@ -1,7 +1,6 @@
 import React from 'react';
 import { withSession } from '../stores/AppContext.jsx';
 import Navbar from "../component/Navbar.jsx";
-import Footer from "../component/Footer.jsx";
 import PropTypes from "prop-types";
 
 class Registration extends React.Component{
@@ -617,7 +616,6 @@ class Registration extends React.Component{
                     </div>
                 </form>
                 <hr className="mb-4" />
-                <Footer />
             </React.Fragment>
         );
     }

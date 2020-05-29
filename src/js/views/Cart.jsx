@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import Navbar from "../component/Navbar.jsx";
-import Footer from "../component/Footer.jsx";
 
 class Checkout extends React.Component{
 
@@ -75,7 +74,6 @@ class Checkout extends React.Component{
                         </div>
                     </div>
                 </div>
-                <Footer />
             </React.Fragment>
         );
     }

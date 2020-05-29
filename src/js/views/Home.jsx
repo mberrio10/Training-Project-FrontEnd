@@ -1,8 +1,7 @@
 import React from 'react';
 import { Consumer } from "../stores/AppContext.jsx";
 import Navbar from "../component/Navbar.jsx";
-import Footer from "../component/Footer.jsx";
-import Carousel from "../component/Carousel.jsx";
+import Banner from "../component/Banner";
 import Featurette from "../component/Featurette.jsx";
 
 class Home extends React.Component{
@@ -18,8 +17,9 @@ class Home extends React.Component{
         return (
             <React.Fragment>
                 <Navbar />
-                <Carousel />
-                <Consumer>
+                <Banner/>
+                <Featurette/>
+                {/* <Consumer>
                     {({ state }) => (
                         state.blogs.map((item, index) => {
                             while (index < 3) {
@@ -40,8 +40,7 @@ class Home extends React.Component{
                             }
                         })
                     )}
-                </Consumer>
-                <Footer />
+                </Consumer> */}
             </React.Fragment>
         );
     }

@@ -1,7 +1,6 @@
 import React from 'react';
 import { Consumer } from "../stores/AppContext.jsx";
 import Navbar from "../component/Navbar.jsx";
-import Footer from "../component/Footer.jsx";
 import Shop from "../component/Shop.jsx";
     
 class Plan extends React.Component {
@@ -32,7 +31,6 @@ class Plan extends React.Component {
                         </Consumer>
                     </div>
                 </div>
-                <Footer />
             </React.Fragment>
         );
     }

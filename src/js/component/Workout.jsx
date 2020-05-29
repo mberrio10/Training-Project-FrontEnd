@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { Consumer } from "../stores/AppContext.jsx";
 import Navbar from "../component/Navbar.jsx";
 import PropTypes from "prop-types";
-import Footer from "../component/Footer.jsx";
 
 class Workout extends React.Component{
 
@@ -107,7 +106,6 @@ class Workout extends React.Component{
                         }
                     }}
                 </Consumer>
-                <Footer />
             </React.Fragment>
         );
     }

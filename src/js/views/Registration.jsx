@@ -2,7 +2,6 @@ import React from 'react';
 import { Link, Redirect } from "react-router-dom";
 import { withSession } from '../stores/AppContext.jsx';
 import Navbar from "../component/Navbar.jsx";
-import Footer from "../component/Footer.jsx";
 // import BasicInfo from "../component/BasicInfo.jsx";
 // import ClinicalRecord from "../component/ClinicalRecord.jsx";
 // import FamilyHistory from "../component/FamilyHistory.jsx";
@@ -624,7 +623,6 @@ class Registration extends React.Component{
                     </div>
                 </form>
                 <hr className="mb-4" />
-                <Footer />
             </React.Fragment>
         );
     }

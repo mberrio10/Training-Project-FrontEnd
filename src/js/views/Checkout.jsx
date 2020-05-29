@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { Consumer } from "../stores/AppContext.jsx";
 import PropTypes from "prop-types";
 import Navbar from "../component/Navbar.jsx";
-import Footer from "../component/Footer.jsx";
 
 class Checkout extends React.Component{
     constructor() {
@@ -131,7 +130,7 @@ class Checkout extends React.Component{
                                                                 onChange={(e) => this.setState({cc_number: e.target.value})}
                                                             />
                                                             <div className="invalid-feedback">
-                                                            Credit card number is required
+                                                                Credit card number is required
                                                             </div>
                                                         </div>
                                                     </div>
@@ -190,7 +189,6 @@ class Checkout extends React.Component{
                         }
                     }}
                 </Consumer>
-                <Footer />
             </React.Fragment>
         );
     }

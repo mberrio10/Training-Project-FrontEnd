@@ -2,7 +2,6 @@ import React from 'react';
 import { Consumer } from "../stores/AppContext.jsx";
 import { Link } from "react-router-dom";
 import Navbar from "../component/Navbar.jsx";
-import Footer from "../component/Footer.jsx";
 import MemberInfo from "../component/MemberInfo.jsx";
 import OverallGoal from "../component/OverallGoal.jsx";
 import BodyComposition from "../component/BodyComposition.jsx";
@@ -67,7 +66,6 @@ class Member extends React.Component{
                     </div>
                 </div>
                 <hr className="mb-4" />
-                <Footer />
             </React.Fragment>
         );
     }

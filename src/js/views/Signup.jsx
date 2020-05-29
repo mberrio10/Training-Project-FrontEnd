@@ -2,7 +2,6 @@ import React from 'react';
 import { withSession } from '../stores/AppContext.jsx';
 import PropTypes from "prop-types";
 import Navbar from '../component/Navbar.jsx';
-import Footer from '../component/Footer.jsx';
 
 class Signup extends React.Component{
 
@@ -10,7 +9,7 @@ class Signup extends React.Component{
         super(props);
         
         this.state = {
-            username: "edgarbrignoni",
+            username: "MikeBerrio",
             password: "4GeeksAcademy"
         };
     }
@@ -95,7 +94,6 @@ class Signup extends React.Component{
                         </div>
                     </div>
                 </div>
-                <Footer />
             </React.Fragment>
         );
     }
