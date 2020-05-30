@@ -5,15 +5,15 @@ class BlogHome extends React.Component {
         return (
             <div className="container-fluid d-flex align-items-center blogHome">
                 <div className="row mb-2 justify-content-around">
-                    <div className="col-md-12 px-0">
-                        {/* <h1 className="display-4 text-center blogTitle"><span>Read</span> Fitness Blog</h1> */}
+                    <div className="col-md-12 px-0" style={{zIndex:"1"}}>
+                        <h1 className="display-4 text-center blogTitle">The Latest On My <span>Fitness Blog</span></h1>
                         <p>&nbsp;</p>
                     </div>
-                    <div className="row mb-2">
+                    <div className="row mb-2" style={{zIndex:"1"}}>
                         <div className="col-md-4">
                             <div className="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                                 <div className="col p-4 d-flex flex-column position-static" style={{backgroundColor:"white"}}>
-                                    <strong className="d-inline-block mb-2 text-primary">Work Out</strong>
+                                    <strong className="d-inline-block mb-2 text-danger">Work Out</strong>
                                     <h3 className="mb-0">The Benefits of Squats</h3>
                                     <div className="mb-1 text-muted">09/22</div>
                                     <p className="card-text mb-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec volutpat ut nunc at ultricies.</p>

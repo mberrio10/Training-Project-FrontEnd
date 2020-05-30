@@ -22,7 +22,7 @@
     min-height: 91vh;
     display: flex;
     background-size: cover;
-    background-color: #212529;
+    background-color:#212529;
     align-items: center;
     margin-bottom: 0;
     padding: 0;
@@ -41,13 +41,13 @@ img.bgBanner {
 
 .jumbotron h1 {
     font-weight:700;
-    color: #27b21b;
+    color:#3CB371;
     line-height: 1em;
     font-size: 71px;
 }
 
 .jumbotron h1 span {
-    color:#b640a6;
+    color:#9c4fe4;
 }
 
 div.col-lg-7 {
@@ -56,10 +56,12 @@ div.col-lg-7 {
 
 .jumboImage {
     display: flex;
+    background: none;
     background-size: cover;
     align-items: center;
     margin-bottom: 0;
     padding: 0;
+    padding-bottom: 60px;
 }
 
 img.bgPostImg {
@@ -79,20 +81,32 @@ h1.servsTitle {
     font-weight:700;
     line-height: 1rem;
     font-size: 48px;
-    color: white;
+    color:white;
     margin: 50px;
 }
 
 .trainingServs h1 span {
-    color: #27b21b;
+    color:#3CB371;
 }
 
 .container-fluid.trainingServs {
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/en-equilibrium-photos.appspot.com/o/jonathan-borba-R0y_bEUjiOM-unsplash.jpg?alt=media&token=b96b2949-fe0e-4cf1-93cf-92fc7cd5c026);
-    background-size: cover;
+    position: relative;
+    background-color:#212529;
     padding-bottom: 60px;
     min-height: 60vh;
+}
+
+.container-fluid.trainingServs::after {
+    content: "";
+    background: url(https://firebasestorage.googleapis.com/v0/b/en-equilibrium-photos.appspot.com/o/jonathan-borba-R0y_bEUjiOM-unsplash.jpg?alt=media&token=b96b2949-fe0e-4cf1-93cf-92fc7cd5c026);
+    background-size: cover;
     background-position: 50% 50%;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
 }
 
 .container.trainingServsCard {
@@ -139,24 +153,36 @@ h1.servsTitle {
 }
 
 .container-fluid.blogHome {
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/en-equilibrium-photos.appspot.com/o/fitness-3167418_1280.jpg?alt=media&token=c139ab98-8f44-46d9-9259-6e0d91f2424b);
-    background-size: cover;
+    position: relative;
+    background-color: #212529;
     margin-top: 60px;
     padding: 60px;
     min-height: 75vh;
+}
+
+.container-fluid.blogHome::after {
+    content: "";
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/en-equilibrium-photos.appspot.com/o/fitness-3167418_1280.jpg?alt=media&token=c139ab98-8f44-46d9-9259-6e0d91f2424b);
+    background-size: cover;
     background-position: 50% 50%;
+    opacity: 0.15;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
 }
 
 h1.blogTitle {
     font-weight:700;
     line-height: 1rem;
     font-size: 48px;
-    color: white;
+    color:white;
     margin: 50px;
 }
 
 .blogHome h1 span {
-    color: #27b21b;
+    color:#9c4fe4;
 }
 
 .bgWorkoutImg {
@@ -206,7 +232,7 @@ ul {list-style-type: none;}
 }
 
 .month ul li {
-    color: white;
+    color:white;
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -234,14 +260,14 @@ ul {list-style-type: none;}
 .weekdays li {
     display: inline-block;
     width: 13.6%;
-    color: #666;
+    color:#666;
     text-align: center;
 }
 
 /* Days (1-31) */
 .days {
     padding: 10px 0;
-    background: #eee;
+    background:#eee;
     margin: 0;
 }
 
@@ -252,14 +278,14 @@ ul {list-style-type: none;}
     text-align: center;
     margin-bottom: 5px;
     font-size:12px;
-    color: #777;
+    color:#777;
 }
 
 /* Highlight the "current" day */
 .days li .active {
     padding: 5px;
-    background: #1abc9c;
-    color: white !important
+    background:#1abc9c;
+    color:white !important
 }
 
 html {
@@ -336,7 +362,7 @@ button.btn.btn-info {
 }
 
 .card-header {
-    color: #fff !important;
+    color:#fff !important;
     line-height: 30px;
 }
 
@@ -350,8 +376,8 @@ button.btn.btn-info {
 
 a.btn.btn-dark.active {
     height: 62px;
-    background-color: #343a40 !important;
-    border: #343a40 !important;
+    background-color:#343a40 !important;
+    border:#343a40 !important;
 }
 
 a.nav-item.nav-link.text-white {

@@ -8,7 +8,7 @@ class FeaturePost extends React.Component {
                     Feature Post
                 </h3>
                 <img src="https://firebasestorage.googleapis.com/v0/b/en-equilibrium-photos.appspot.com/o/hipcravo-eFx1KZhaSvo-unsplash.jpg?alt=media&token=215dc8d5-f9de-4b36-9da9-b45c12e6dbe0" className="img-fluid" alt="Responsive image"></img>
-                <div className="col-md-8 px-0">
+                <div className="col-md-12 px-0">
                     <p className="blog-post-meta font-italic">
                         September 22, 2018 by En Equilibrium
                     </p>

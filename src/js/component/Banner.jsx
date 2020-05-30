@@ -11,7 +11,7 @@ class Banner extends React.Component {
                         <div className="col-lg-7 px-0">
                             <h1 className="display-4 text-left nameTitle">
                                 Put Your Body And Mind <br />
-                                <span>En Equilibrium</span>
+                                <span>In Equilibrium</span>
                             </h1>
                             <p className="lead my-3 text-left font-italic descTitle">
                                 Personal Training, Yoga and Nutrition!

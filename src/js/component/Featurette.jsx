@@ -14,6 +14,8 @@ class Featurette extends React.Component{
     render(){
         return (
             <div className="container marketing">
+                <h2 className="font-italic">Latest Posts</h2>
+                <hr/>
                 <div className="row featurette">
                     <div className="col-md-7">
                         <h2 className="featurette-heading">8 Foods That Lower Testosterone Levels</h2>
@@ -34,7 +36,7 @@ class Featurette extends React.Component{
                 </div>
                 <div className="row featurette">
                     <div className="col-md-7 order-md-2">
-                        <h2 className="featurette-heading">12 Common Workout Mistakes You`re Probably Making (And How To Fix Them)</h2>
+                        <h2 className="featurette-heading">12 Common Workout Mistakes</h2>
                         <p className="lead">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus...</p>
                         <Link style={{ textDecoration: 'none' }} to={"/post/"+this.props.id}>
                             <button type="button" className="btn btn-info">READ MORE</button>

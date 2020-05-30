@@ -14,6 +14,8 @@ class Card extends React.Component{
     render(){
         return (
             <div className="container p-0">
+                <h2 className="font-italic">Other Posts</h2>
+                <hr/>
                 <div className="row">
                     <div className="col-md-4 mt-2 mb-4">
                         <div className="card border-0 card-cascade wider">
