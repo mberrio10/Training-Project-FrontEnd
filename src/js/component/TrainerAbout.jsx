@@ -19,10 +19,10 @@ class TrainerAbout extends React.Component {
                                 dolor nec, imperdiet vulputate sem.
                             </p>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3 trainerImg">
                             <img src="https://firebasestorage.googleapis.com/v0/b/en-equilibrium-photos.appspot.com/o/hipcravo-5UbIqV58CW8-unsplash.jpg?alt=media&token=4a4f2960-1159-46e6-a1c5-d0bf710128b6" className="img-fluid" alt="Responsive image"></img>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3 trainerImg">
                             <img src="https://firebasestorage.googleapis.com/v0/b/en-equilibrium-photos.appspot.com/o/anastase-maragos-DHsdSeCpjRU-unsplash.jpg?alt=media&token=fa037327-3a3f-4b0c-8b32-1eb55d41fc57" className="img-fluid" alt="Responsive image"></img>
                         </div>
 					</div>

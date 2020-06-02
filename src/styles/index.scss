@@ -77,9 +77,18 @@ img.bgPostImg {
     padding-bottom: 100px;
 }
 
+.trainerImg {
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.trainerImg:hover {
+    transform: scale(1.1);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.05);
+}
+
 h1.servsTitle {
     font-weight:700;
-    line-height: 1rem;
     font-size: 48px;
     color:white;
     margin: 50px;
@@ -112,6 +121,16 @@ h1.servsTitle {
 .container.trainingServsCard {
     margin-top: -219px;
     padding-bottom: 60px;
+}
+
+img.featureImg {
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+img.featureImg:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.05);
 }
 
 .card-deck.servsCard {
@@ -175,7 +194,6 @@ h1.servsTitle {
 
 h1.blogTitle {
     font-weight:700;
-    line-height: 1rem;
     font-size: 48px;
     color:white;
     margin: 50px;
@@ -198,6 +216,35 @@ h1.blogTitle {
 .bgNutritionImg {
     background-image: url(https://firebasestorage.googleapis.com/v0/b/en-equilibrium-photos.appspot.com/o/joseph-gonzalez-fdlZBWIP0aM-unsplash.jpg?alt=media&token=3c183790-b2c3-45e4-9d87-2771847e49a3);
     background-size: cover;
+}
+
+.workoutHBlog {
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.workoutHBlog:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.05);
+}
+.yogaHBlog {
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.yogaHBlog:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.05);
+}
+
+.nutritionHBlog {
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.nutritionHBlog:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.05);
 }
 
 footer {
@@ -360,6 +407,13 @@ button.btn.btn-info {
 
 .featurette {
     margin-bottom: 4rem;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.featurette:hover {
+    transform: scale(1.1);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.05);
 }
 
 .featurette-image {

@@ -26,7 +26,7 @@ class Card extends React.Component{
                                 </a>
                             </div>
                             <div className="mt-3 p-0 text-center card-body card-body-cascade">
-                                <h4 className="card-title">Lorem Ipsum</h4>
+                                <h4 className="card-title">Maximize Your Dumbbell Rutine</h4>
                                 <p className="lead">
                                     Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.
                                 </p>                      
@@ -49,7 +49,7 @@ class Card extends React.Component{
                                 </a>
                             </div>
                             <div className="mt-3 p-0 text-center card-body card-body-cascade">
-                                <h4 className="card-title">Lorem Ipsum</h4>
+                                <h4 className="card-title">Exercises to Build a Strong & Sexy Booty</h4>
                                 <p className="lead">
                                     Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.
                                 </p>                      
@@ -72,7 +72,7 @@ class Card extends React.Component{
                                 </a>
                             </div>
                             <div className="mt-3 p-0 text-center card-body card-body-cascade">
-                                <h4 className="card-title">Lorem Ipsum</h4>
+                                <h4 className="card-title">Squat Depth: How Deep Should You Squat?</h4>
                                 <p className="lead">
                                     Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.
                                 </p>                      
