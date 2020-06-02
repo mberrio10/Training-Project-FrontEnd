@@ -25,7 +25,18 @@ class Home extends React.Component{
                 <TrainingServices/>
                 <ServicesCard/>
                 <BlogHome/>
-                <p>&nbsp;</p>
+                <footer className="mastfoot mt-auto text-center">
+					<div className="inner">
+						<p className="footerStyle text-muted">
+							© 2018 En Equilibrium Blog, Website created by
+							<a href="https://www.linkedin.com/in/mikeberrio">
+								{" "}
+								Mike Berrio
+							</a>
+							.
+						</p>
+					</div>
+				</footer>
                 {/* <Consumer>
                     {({ state }) => (
                         state.blogs.map((item, index) => {

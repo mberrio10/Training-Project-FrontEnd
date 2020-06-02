@@ -114,7 +114,7 @@ h1.servsTitle {
     padding-bottom: 60px;
 }
 
-.card-deck {
+.card-deck.servsCard {
     /* position: relative; */
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(227px, 1fr));
@@ -198,6 +198,12 @@ h1.blogTitle {
 .bgNutritionImg {
     background-image: url(https://firebasestorage.googleapis.com/v0/b/en-equilibrium-photos.appspot.com/o/joseph-gonzalez-fdlZBWIP0aM-unsplash.jpg?alt=media&token=3c183790-b2c3-45e4-9d87-2771847e49a3);
     background-size: cover;
+}
+
+footer {
+    padding: 60px;
+    font-size: 18px;
+    background: black;
 }
 
 .videoWrapper {

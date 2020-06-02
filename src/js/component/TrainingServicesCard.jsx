@@ -8,7 +8,7 @@ class TrainingServicesCard extends React.Component {
         return (
             <div className="container trainingServsCard">
                 <div className="row justify-content-center">
-                    <div className="card-deck text-center">
+                    <div className="card-deck servsCard text-center">
                         <div className="card">
                             <img src="gym.png" className="card-img-top" alt="..."/>
                             <div className="card-body">
