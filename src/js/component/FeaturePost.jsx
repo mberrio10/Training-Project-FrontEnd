@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 class FeaturePost extends React.Component {
     constructor(props){
@@ -32,3 +33,12 @@ class FeaturePost extends React.Component {
     }
 }
 export default FeaturePost;
+
+FeaturePost.propTypes = {
+    id: PropTypes.number,
+    index: PropTypes.number,
+    title: PropTypes.string,
+    desc: PropTypes.string,
+    image: PropTypes.string,
+    post: PropTypes.string
+};

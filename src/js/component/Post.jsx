@@ -130,17 +130,10 @@ class Post extends React.Component{
                     }}
                 </Consumer> */}
                 <footer className="mastfoot mt-auto text-center">
-					<div className="inner">
-						<p className="footerStyle text-muted">
-							© 2018 En Equilibrium Blog, Website created by
-							<a href="https://www.linkedin.com/in/mikeberrio">
-								{" "}
-								Mike Berrio
-							</a>
-							.
-						</p>
-					</div>
-				</footer>
+                    <div className="inner">
+                        <p className="footerStyle text-muted">© 2018 En Equilibrium Blog, Website created by<a href="https://www.linkedin.com/in/mikeberrio">{" "}Mike Berrio</a>.</p>
+                    </div>
+                </footer>
             </React.Fragment>
         );
     }

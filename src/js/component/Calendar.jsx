@@ -16,7 +16,7 @@ class Calendar extends React.Component{
                 {number}
             </li>;
             });
-        console.log(listItems);
+        //console.log(listItems);
         return (
             <ul>{listItems}</ul>
         );

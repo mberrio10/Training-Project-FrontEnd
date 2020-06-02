@@ -2,8 +2,8 @@ import React from "react";
 import bgBanner from "../../img/bg-banner.jpg";
 
 class Banner extends React.Component {
-	render() {
-		return (
+    render() {
+        return (
             <div className="jumbotron banner text-white">
                 <div className="container-fluid">
                     <div className="row mb-2 justify-content-around">
@@ -20,7 +20,7 @@ class Banner extends React.Component {
                     </div>
                 </div>
             </div>
-		);
-	}
+        );
+    }
 }
 export default Banner;
