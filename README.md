@@ -2,89 +2,15 @@
 
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/mberrio10/Training-Project-FrontEnd) 
 
-# Hello World with React and Cloud 9
+![1]
 
-#### Make sure you have node version 8
-```sh
-$ nvm install 8
-$ nvm use 8
-$ node -v
-```
+[1]:
+https://firebasestorage.googleapis.com/v0/b/portfolio-images-eba3c.appspot.com/o/EnEquilibriumReadMe.png?alt=media&token=3108d32e-57c8-49a3-a4db-9798ec0d0d26
 
-##### Download the boilerplate using the BreatheCode CLI
-```
-$ npm i @breathecode/breathecode-cli -g
-```
+# Fitness Blog Application
 
-##### Download the boilerplate using the BreatheCode CLI
-```
-$ breathecode start:react -r
-```
-##### and install the npm package:
-```
-$ npm install
-```
+This is a blogging website, a fitness application featuring, workout, yoga, and nutrition articles. This application also features personal training options, where a user can choose a plan to introduce their information and then choose what kind of goals are they looking for, choose what kind of conditions they have and then create a user and passcode to log in to their profile check out their weekly rutines. This is a dinamic professional, full-responsive, and high performance website, developed using HTML5, CSS3, Bootstrap, Javascript and React.js.
 
-## That is it! 
+## Back-End Code Repository available here:
 
-Start coding your ReactJS application.
-
-Note: If you ever want to manually install all of this read the [MANUAL.md file.](/MANUAL.md)
-
-## How start coding?
-
-Now you have an index.js that will start your javascript execution (like the window.onload).
-
-###### Every time you save your source code (js & css files) you will have to re-build your bundle.
-
-```sh
-$ npm run build
-```
-
-###### Webpack will generate your bundle.js inside the public folder
-
-Check that a public/bundle.js file has been created by Webpack. Read the output from the console that must be similar to this:
-
-```sh
-> workspace@1.0.0 transpile-dev /home/ubuntu/workspace
-> webpack --config webpack.config.js
-
-Hash: 64f06c46f625967b3aeb
-Version: webpack 3.8.1
-Time: 99ms
-    Asset     Size  Chunks             Chunk Names
-bundle.js  2.52 kB       0  [emitted]  main
-   [0] ./src/bundle.js 51 bytes {0} [built]
-```
-
-###### NOTE: You have to re-bundle every time yo update your JS or CSS/SASS files.
-
-You are ready to go! You can commit & push to your new repository whenever you want.
-
-### REMEMBER:
-
-The application flow starts at **index.js**, you have to import any other files or assets into app.js in order for webpack to include them in the bundle.
-
-For example, inside index.js you can do:
-
-```js
-window.onload = function(){
-    console.log('hello world');
-}
-```
-
-To include images, styles or any other type of file just use the **import** command:
-
-```js
-
-    //This will include file.js into your bundle.
-    import 'js/file2.js';
-    
-    //this will include the styles at index.scss to your bundle.
-    import '../styles/index.scss';
-
-```
-
-1. All your JS and CSS code must go inside the src/ directory, and webpack will automaticly bundle them and export them into the public folder.
-
-2. The HTML code must be inside public/index.html
+https://github.com/mberrio10/Training-Project-Back-End
